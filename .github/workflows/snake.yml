@@ -1,0 +1,35 @@
+name: Generate Snake
+
+on:
+  schedule:
+    - cron: '0 0 * * *'   # roda diariamente (opcional)
+  workflow_dispatch:      # permite rodar manualmente
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Generate snake (SVG only)
+        uses: Platane/snk/svg-only@v3
+        with:
+          # seu usuário (pode usar ${{ github.repository_owner }} também)
+          github_user_name: GuilhermeVicenteFigueira
+          # arquivos que serão gerados (vamos gerar direto na raiz)
+          outputs: |
+            github-contribution-grid-snake.svg
+            github-contribution-grid-snake-dark.svg?palette=github-dark
+
+      - name: Commit and push generated files to branch 'output'
+        uses: EndBug/add-and-commit@v9
+        with:
+          add: 'github-contribution-grid-snake.svg github-contribution-grid-snake-dark.svg'
+          message: 'chore: update snake animation'
+          author_name: 'github-actions'
+          author_email: 'github-actions@github.com'
+          new_branch: 'output'
