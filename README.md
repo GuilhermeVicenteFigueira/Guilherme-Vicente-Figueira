@@ -4,20 +4,22 @@
 
 Me chamo Guilherme Vicente Figueira, tenho 19 anos e sou natural de São Paulo. Atualmente, estou cursando Análise e Desenvolvimento de Sistemas na UNIMAR. Sou um Javeiro mas  com um perfil no momento academico , Postode vez em quando minha rotina em meu Instagram, com o perfil chamado "[guilherme_dev__](https://www.instagram.com/guilherme_dev__?utm_source=qr&igsh=bzBpbm1raXI1amVl)".
 
-<p align="https://github.com/GuilhermeVicenteFigueira?tab=repositories">
-        <img 
-            alt="Total de estrelas" 
-            title="Total de estrelas GitHub" 
-            src="https://github.com/GuilhermeVicenteFigueira?tab=stars"
-        />
-    </a>
-    <a href="hhttps://github.com/GuilhermeVicenteFigueira?tab=followers">
-        <img 
-            alt="Seguidores" 
-            title="Me siga no GitHub" 
-            src="https://custom-icon-badges.demolab.com/github/followers/Larissakich?color=236ad3&labelColor=1155ba&style=for-the-badge&logo=github&label=Seguidores&logoColor=white"
-        />
-    </a>
+<p>
+  <a href="https://github.com/GuilhermeVicenteFigueira?tab=repositories">
+    <img 
+        alt="Total de estrelas" 
+        title="Total de estrelas no GitHub" 
+        src="https://custom-icon-badges.demolab.com/github/stars/GuilhermeVicenteFigueira?color=55960c&style=for-the-badge&labelColor=488207&logo=star&label=Estrelas"
+    />
+  </a>
+
+  <a href="https://github.com/GuilhermeVicenteFigueira?tab=followers">
+    <img 
+        alt="Seguidores" 
+        title="Me siga no GitHub" 
+        src="https://custom-icon-badges.demolab.com/github/followers/GuilhermeVicenteFigueira?color=236ad3&labelColor=1155ba&style=for-the-badge&logo=github&label=Seguidores&logoColor=white"
+    />
+  </a>
 </p>
 
 ---
@@ -150,3 +152,6 @@ Me chamo Guilherme Vicente Figueira, tenho 19 anos e sou natural de São Paulo. 
     src="https://github-readme-stats.vercel.app/api/top-langs/?username=GuilhermeVicenteFigueira&theme=tokyonight&layout=compact&custom_title=Tecnologias&langs_count=9" 
   />
 </p>
+
+### 🐍 Minhas contribuições
+![Snake animation](https://github.com/GuilhermeVicenteFigueira/GuilhermeVicenteFigueira/blob/output/github-contribution-grid-snake.svg)
