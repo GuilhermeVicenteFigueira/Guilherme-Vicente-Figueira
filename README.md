@@ -154,4 +154,4 @@ Me chamo Guilherme Vicente Figueira, tenho 19 anos e sou natural de São Paulo. 
 </p>
 
 ### 🐍 Minhas contribuições
-![Snake animation](https://github.com/GuilhermeVicenteFigueira/GuilhermeVicenteFigueira/blob/output/github-contribution-grid-snake.svg)
+![Snake animation](https://raw.githubusercontent.com/GuilhermeVicenteFigueira/Guilherme-Vicente-Figueira/output/github-contribution-grid-snake.svg)
